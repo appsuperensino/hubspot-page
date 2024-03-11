@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubspot</title>
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/14519179.js"></script>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #hubspot-conversations-inline-iframe {
+            width: 100vw;
+            height: 100vh;
+            border:none;
+        }
+
+    </style>
+    <div id="hubspot"></div>
+    <script>
+    window.hsConversationsSettings = {
+      loadImmediately: true,
+      inlineEmbedSelector: '#hubspot'
+    };
+    </script>
+</body>
+</html>
